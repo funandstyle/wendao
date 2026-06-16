@@ -41,21 +41,13 @@ export default function SpecsPage() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="relative bg-[#0d1426] border border-[var(--border-subtle)] rounded-3xl p-8 aspect-square flex items-center justify-center"
+              className="relative bg-[#0d1426] border border-[var(--border-subtle)] rounded-3xl p-8 aspect-square flex items-center justify-center overflow-hidden"
             >
-              <svg viewBox="0 0 400 400" className="w-full h-full max-w-sm">
-                <path className="fill-[#141f3a] stroke-[#e07800] stroke-[1.5]" d="M140 180 Q120 160 130 130 Q140 100 170 95 L230 95 Q260 100 270 130 Q280 160 260 180 L240 220 Q230 240 200 245 Q170 240 160 220 Z" />
-                <path className="fill-[#141f3a] stroke-[#e07800] stroke-[1.5]" d="M170 95 L160 60 Q155 40 175 35 L225 35 Q245 40 240 60 L230 95" />
-                <path className="fill-[#141f3a] stroke-[#e07800] stroke-[1.5]" d="M165 45 L150 20 Q145 10 155 15 L170 35" />
-                <path className="fill-[#141f3a] stroke-[#e07800] stroke-[1.5]" d="M235 45 L250 20 Q255 10 245 15 L230 35" />
-                <path className="fill-[#141f3a] stroke-[#e07800] stroke-[1.5]" d="M150 220 L140 290 Q135 310 150 315 L160 310 Q165 300 160 280 L165 230" />
-                <path className="fill-[#141f3a] stroke-[#e07800] stroke-[1.5]" d="M180 235 L175 300 Q170 320 185 325 L195 320 Q200 310 195 290 L195 240" />
-                <path className="fill-[#141f3a] stroke-[#e07800] stroke-[1.5]" d="M220 235 L225 300 Q230 320 215 325 L205 320 Q200 310 205 290 L205 240" />
-                <path className="fill-[#141f3a] stroke-[#e07800] stroke-[1.5]" d="M250 220 L260 290 Q265 310 250 315 L240 310 Q235 300 240 280 L235 230" />
-                <path className="fill-[#141f3a] stroke-[#e07800] stroke-[1.5]" d="M260 180 Q290 170 300 150 Q310 130 305 120" />
-                <ellipse className="fill-[#e07800]" cx="185" cy="70" rx="8" ry="6" />
-                <ellipse className="fill-[#e07800]" cx="215" cy="70" rx="8" ry="6" />
-              </svg>
+              <img
+                src="/wendao/images/robot-dog-hero.png"
+                alt="机器狗产品图"
+                className="w-full h-full object-contain"
+              />
 
               {hotspots.map((spot) => (
                 <button
