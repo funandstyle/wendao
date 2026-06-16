@@ -1,0 +1,8 @@
+node_modules/
+.next/
+dist/
+*.py
+showcase.html
+index.html
+next-env.d.ts
+产品展示前端设计规范.docx
